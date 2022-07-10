@@ -1,0 +1,39 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu';
+}
+
+html p, html h1, html h2, html h3, html h4, html h6, body p, body h1, body h2, body h3, body h4, body h6, #root p, #root h1, #root h2, #root h3, #root h4, #root h6 {
+  color: white;
+}
+
+html .App, body .App, #root .App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html .App #Parametre h3, body .App #Parametre h3, #root .App #Parametre h3 {
+  font-size: 50px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+
+html .App canvas, body .App canvas, #root .App canvas {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+html .App #signature, body .App #signature, #root .App #signature {
+  position: absolute;
+  font-size: 14px;
+  bottom: 30px;
+  right: 40px;
+}
+/*# sourceMappingURL=index.css.map */
