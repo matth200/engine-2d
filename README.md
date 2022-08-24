@@ -4,7 +4,7 @@ It's a librairy to code quickly some simulation 2d like squares, flags, clothes 
 
 <h3>Needs</h3>
 
-Installation
+Installation<br/>
 <code> ~$ npm install </code><br/>
 Then you run it in development mode
 <code> ~$ npm start </code><br/>
