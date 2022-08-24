@@ -6,14 +6,14 @@ It's a librairy to code quickly some simulation 2d like squares, flags, clothes 
 
 Installation<br/>
 <code> ~$ npm install </code><br/>
-Then you run it in development mode
+Then you run it in development mode<br/>
 <code> ~$ npm start </code><br/>
 
-If you want it less buggy, you can build the project
+If you want it less buggy, you can build the project<br/>
 <code> ~$ npm run build </code><br/>
 <code> ~$ sudo npm install -g serve </code><br/>
 
-Then run it
+Then run it<br/>
 <code> ~$ serve -s build </code><br/>
 
 <h3>Simulation</h3>
