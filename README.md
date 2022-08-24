@@ -31,3 +31,6 @@ Boxes and ropes simulation
 Cloth simulation
 
 ![My Images](documentation/cloth.gif)
+
+
+Maybe in the future, I could add some collision
