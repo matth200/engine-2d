@@ -6,6 +6,8 @@ import { createElement } from 'react';
 const config = {};
 const math = create(all,config);
 
+const RIGIDITE = 10;
+
 class Engine_2d{
     constructor(){
         this.balls = [];
@@ -291,7 +293,7 @@ class Engine_2d{
                 ball.update();
             }
         }
-        for(let j=0;j<1;j++){
+        for(let j=0;j<RIGIDITE;j++){
             for(let i=0;i<this.sticks.length;i++){
                 const stick = this.sticks[i];
                     stick.update();

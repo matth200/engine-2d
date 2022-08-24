@@ -51,11 +51,11 @@ const Canvas = (props) => {
         if(engine.getBalls().length==0){
 
             // //corde
-            // const points_rope1 = engine.addRope(500,100,600,600,60);
+            // const points_rope1 = engine.addRope(500,100,800,400,60);
             // points_rope1[0].setFixe(true);
             // points_rope1[points_rope1.length-1].setSpeed(9,9);
 
-            // const points_rope2 = engine.addRope(1200,100,700,600,60);
+            // const points_rope2 = engine.addRope(1200,100,900,400,60);
             // points_rope2[0].setFixe(true);
             // points_rope2[points_rope2.length-1].setSpeed(9,9);
 
@@ -71,12 +71,15 @@ const Canvas = (props) => {
 
             // engine.addCube(100,500,200,200,50,[30,30]);
 
-            // engine.addCube(1600,200,100,100,20,[30,10],[30,10],[30,10],[30,10]);
+            //engine.addCube(1600,200,100,100,20,[30,10],[30,10],[30,10],[30,10]);
 
 
             //cloth
-            engine.addFlag(flag_image,100,200,800,500,30,20);
-            engine.addFlag(flag_image2,1000,200,800,500,30,20);
+            engine.addCloth(100,200,800,500,30,20)
+
+            //flags
+            // engine.addFlag(flag_image,100,200,800,500,30,20);
+            // engine.addFlag(flag_image2,1000,200,800,500,30,20);
 
 
             // //ball mouse
