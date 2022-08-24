@@ -75,8 +75,8 @@ const Canvas = (props) => {
 
 
             //cloth
-            engine.addFlag(flag_image,100,200,800,500,50,20);
-            engine.addFlag(flag_image2,1000,200,800,500,50,20);
+            engine.addFlag(flag_image,100,200,800,500,30,20);
+            engine.addFlag(flag_image2,1000,200,800,500,30,20);
 
 
             // //ball mouse
